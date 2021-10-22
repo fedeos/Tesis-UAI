@@ -101,19 +101,21 @@ y LUEGO los detalles correspondientes. De lo contrario, no se entiende el docume
 - [x] Revisar [Redimensionamiento imágenes](https://auth0.com/blog/image-processing-in-python-with-pillow/)
 - [X] Elegir versión del modelo
 - [ ] Preguntas a Gonzalo Ruz:
-1. *¿Es razonable pasar los montos a daño a un factor del valor inicial?* Sí
-3. *¿Qué aspectos debiésemos tener en cuenta al convertir el modelo de regresión a clasificación? *
-4. *¿Vale la pena hacer lo anterior? Por el momento estamos usando uno de **regresión***
-5. *Queremos demostrar/descartar que en este tipo de problemas un modelo que usa inputs "tabulares" + imágenes es más acucioso que un modelo que solo usa imágenes ¿Comentarios?*
-6. *¿Cuántas veces deberíamos correr la comparación para considerar que hemos encontrado una diferencia significativa?*
+1. *¿Es razonable pasar los montos a daño a un factor del valor inicial?* 
+    Sí
+    
+2. *¿Qué aspectos debiésemos tener en cuenta al convertir el modelo de regresión a clasificación? *
+3. _¿Vale la pena hacer lo anterior? Por el momento estamos usando uno de **regresión**_
+4. *Queremos demostrar/descartar que en este tipo de problemas un modelo que usa inputs "tabulares" + imágenes es más acucioso que un modelo que solo usa imágenes ¿Comentarios?*
+5. *¿Cuántas veces deberíamos correr la comparación para considerar que hemos encontrado una diferencia significativa?*
 
     Está OK con 100 y uso de test t
-8. <s>Hay solo 93 fotos de vehículos sin daño, lo que nos deja con un dataset desbalanceado ¿Cuáles serían estrategias más razonables para llegar a 400?</s>
-9. *Es sensato realizar tratamiento previo de imágenes para mejorar el resultado?* No se recomienda, por tiempo disponible
-11. *Hace sentido para la Tesis utilizar transfer learning para capas iniciales?*
+6. <s>Hay solo 93 fotos de vehículos sin daño, lo que nos deja con un dataset desbalanceado ¿Cuáles serían estrategias más razonables para llegar a 400?</s>
+7. *Es sensato realizar tratamiento previo de imágenes para mejorar el resultado?* No se recomienda, por tiempo disponible
+8. *Hace sentido para la Tesis utilizar transfer learning para capas iniciales?*
 
     Puede ser, más razonable modelo "tradicional" como línea base. Es más recomendable ajustarse a tiempo disponible y no llenarse de hipótesis.
-10. *Deberíamos incluir en la Tesis el caso de las casas como punto de partida de nuestro estudio?*
+9. *Deberíamos incluir en la Tesis el caso de las casas como punto de partida de nuestro estudio?*
 
     Sí, mencionarlo explícitamente
 
