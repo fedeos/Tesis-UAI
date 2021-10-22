@@ -102,9 +102,10 @@ y LUEGO los detalles correspondientes. De lo contrario, no se entiende el docume
 - [X] Elegir versión del modelo
 - [ ] Preguntas a Gonzalo Ruz:
 1. *¿Es razonable pasar los montos a daño a un factor del valor inicial?* 
+
     Sí
     
-2. *¿Qué aspectos debiésemos tener en cuenta al convertir el modelo de regresión a clasificación? *
+2. *¿Qué aspectos debiésemos tener en cuenta al convertir el modelo de regresión a clasificación?*
 3. _¿Vale la pena hacer lo anterior? Por el momento estamos usando uno de **regresión**_
 4. *Queremos demostrar/descartar que en este tipo de problemas un modelo que usa inputs "tabulares" + imágenes es más acucioso que un modelo que solo usa imágenes ¿Comentarios?*
 5. *¿Cuántas veces deberíamos correr la comparación para considerar que hemos encontrado una diferencia significativa?*
